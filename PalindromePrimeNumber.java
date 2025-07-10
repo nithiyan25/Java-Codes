@@ -2,7 +2,6 @@ import java.util.Scanner;
 class PalindromePrimeNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a number: ");
         int n = input.nextInt();
         boolean isPalindrome = true;
         boolean isPrime = true;
